@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>She Codes Africa Assignment</title>
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1><em>Bienvenue!</em></h1> <br>
-    <h2>FUNMI ADENIYI</h2>
-    <h3>Physiotherapist|Tech Enthusiast|Aspiring Polymath</h3> <hr><br>
-    <p I am a result-oriented,self-motivated person with over 2 years clinical experience. <br> I have a good client relationship manangement and great comunication skills. <br> I love to watch football, read on a wide range of topics and learning new things.<br> I recently started learning how to code and it has been fun but challenging.
-    </p> <br>
-     <br>
-     <br>
-     <footer id="footer">Know more about physiotherapy<a href="https://www.physio-pedia.com/Physiotherapy_/_Physical_Therapy#:~:text=The%20World%20Confederation%20for%20Physiotherapy,%2Fintervention%2C%20habilitation%20and%20rehabilitation."> here </a> </footer>
-          
+    <h1 class="title">Personal Information </h1>
+    <p>Kindly fill in your details below. Thank you</p>
+    <form id="info">
+        <div class="biodata">
+        First Name:<input type="text"> <br>
+        Last Name:<input type="text"> <br>
+        Age:<input type="number" min="18"> <br>
+        Email:<input type="email" required> <br>
+        Birthday:<input type="date"> <br>
+        </div>
+        Gender:
+        <br>
+        <div class="radio">
+        <input id="radio1" type="radio" name="gender"><label>Male</label> <br>
+        <input id="radio2" type="radio" name="gender"><label>Female</label> <br>
+        <input id="radio3" type="radio" name="gender"><label>Others</label> <br>
+        </div>
+        <input class="submit" type="submit" value="Submit">
+
+
+    </form>
 </body>
 </html>
